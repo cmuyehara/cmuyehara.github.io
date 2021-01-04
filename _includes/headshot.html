@@ -1,0 +1,36 @@
+<style>
+img{
+	width:70%;
+	max-width:250px;
+}
+</style>
+
+<div class="headshot">
+	<img src="/assets/images/headshot_crop.png" width=70% height=70% >
+</div>
+
+{% if site.data.social_media %}
+<div class="social">
+	<ul >
+	{% assign sm = site.data.social_media %}
+	{% for s in sm %}
+	<li><a href="{{ s.href }}{{ s.id }}" title="{{ s.title }}">
+			<i class="fa {{ s.fa-icon }}" style="color:{{ s.color }};"></i>  {{ s.display }}
+		</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
+<!--
+
+	<img src="/assets/images/headshot.jpg" width="300" height="300">
+<div class="contact">
+	<a href="mailto:cuyehara@email.unc.edu">email</a>
+	<a href="https://twitter.com/cmuyehara">Twitter</a>
+	<a href="https://twitter.com/cmuyehara" title="Twitter">
+		<i class="fa fa-twitter"></i>
+	</a>
+</div>
+-->
+

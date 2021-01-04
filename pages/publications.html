@@ -1,0 +1,42 @@
+---
+layout: default
+title: publications
+---
+
+<style>
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+li {
+	margin: 20px 0;
+}
+
+<!--
+.extLink {
+	color:blue;
+}
+
+.extLink:hover{
+	color:black;
+}
+
+-->
+
+</style>
+
+<h1>Publications</h1>
+<ul>
+{% assign pubs = site.data.publications %}
+{% for p in pubs %}
+<li>{{ p.authors }} ({{ p.year }}).
+	<u><a href="{{ p.link }}" class='extLink'>{{ p.title }} </a></u>
+	{{ p.jrnl }}<br>{{ p.note }}
+</li>
+{% endfor %}
+
+
+
+

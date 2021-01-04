@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }} </title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type = "text/css" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<body>
+		<div class="container" id="border">
+		<h1> Christopher M. Uyehara </h1>
+		<hr>
+		{% include navigation.html %}
+		<hr>
+		<div class="container" id="main"> 
+
+		{{ content }}
+
+		</div> <!-- /.container -->
+		<footer>
+			This website was generated with <u><a href="https://jekyllrb.com">Jekyll</a></u>: 
+			<em>"If I am the chief of sinners, I am the chief of sufferers also." </em><br>
+			(Not actually their motto, but it should be...)
+		</footer>
+		</div>
+	</body>
+</html>
+
+<!-- old style sheet 
+		<link rel="stylesheet" type = "text/css" href="/css/main.css">
+		<ul>
+			<li><a href="mailto:cuyehara@email.unc.edu">email</a></li>
+			<li><a href="https://github.com/cmuyehara">github</a></li>
+		</ul>
+-->
+

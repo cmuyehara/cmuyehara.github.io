@@ -1,0 +1,30 @@
+- title: 'Email'
+  display: 'cuyehara@email.unc.edu'
+  id: 'cuyehara@email.unc.edu'
+  href: 'mailto:'
+  fa-icon: 'fa-envelope'
+  color: 'black'
+
+- title: 'Twitter'
+  display: 'cmuyehara'
+  id: 'cmuyehara'
+  href: 'https://twitter.com/'
+  fa-icon: 'fa-twitter'
+  color: '#1DA1F2'
+ 
+- title: 'ORCID'
+  display: '0000-0002-3210-9428'
+  id: '0000-0002-3210-9428'
+  href: 'https://orcid.org/'
+  fa-icon: 'fa-orcid'
+  color: '#A6CE39'
+
+- title: 'Google'
+  display: 'Scholar Google'
+  id: 'citations?user=rq99LRAAAAAJ&hl'
+  href: 'https://scholar.google.com/'
+  fa-icon: 'fa-google'
+  color: '#4285F4'
+ 
+
+

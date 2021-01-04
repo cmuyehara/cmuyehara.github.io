@@ -1,0 +1,21 @@
+{% if site.data.social_media %}
+<div class="social">
+	<ul >
+	{% assign sm = site.data.social_media %}
+	{% for s in sm %}
+	<li><a href="{{ s.href }}{{ s.id }}" title="{{ s.title }}">
+			<i class="fa {{ s.fa-icon }}"></i>  {{ s.display }}
+		</a></li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
+<!--
+		<a href="{{ sm[key].href }}{{ sm[key].id }}">
+			<i class="{{ sm[key].fa-icon }}">
+		</i></a>
+	<p> this is the href: {{ s.href }} </p>
+ 	style="list-style-type:none"
+-->
+

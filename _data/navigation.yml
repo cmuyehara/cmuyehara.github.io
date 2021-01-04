@@ -1,0 +1,9 @@
+- name: About
+  link: /
+- name: Research
+  link: /pages/research
+- name: Publications
+  link: /pages/publications
+- name: CV
+  link: /pages/cv
+

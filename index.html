@@ -1,0 +1,57 @@
+---
+layout: default
+title: about
+---
+
+<style>
+#about_main{
+	float:left;
+	width:100%;
+}
+
+#headshot{
+	float:left;
+	width: 45vh;
+}
+
+#blurb{
+	float:left;
+	width:65vh;
+	text-align:center;
+	font-size: 20px;
+}
+
+</style>
+
+<div class="main" id="about_main">
+	<div id="headshot">
+		{% include headshot.html %}
+	</div>
+	
+	<div id="blurb">
+		<!--<h2>About Me</h2> -->
+	<p> 
+	Hi there!<br>I'm a graduate student in the <u><a href='https://mckaylab.web.unc.edu' class=extLink>McKay Lab</a></u> at 
+	the University of North Carolina at Chapel Hill. I study the epigenetics of gene regulation during <em>Drosophila</em> 
+	development using a mixture of wet-lab and computational techniques. My project has focused on understanding how the 
+	steroid hormone ecdysone can induce temporal- and tissue-specific gene expression responses. 
+	<p>You can read more about my research <u><a href="/pages/research" class=extLink>here</a></u>.</p>
+	</div>
+</div><!-- /.blurb -->
+
+
+
+<!--
+
+	display: flex;
+	justify-content: center;
+<div class="main" id="margin:auto">
+<aside>
+			{% include headshot.html %}
+</aside>
+<style>
+aside {
+	float: left;
+}
+</style>
+-->
