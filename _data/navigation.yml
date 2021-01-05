@@ -1,9 +1,9 @@
 - name: About
   link: /
 - name: Research
-  link: /pages/research
+  link: /pages/research.html
 - name: Publications
-  link: /pages/publications
+  link: /pages/publications.html
 - name: CV
-  link: /pages/cv
+  link: /pages/cv.html
 
