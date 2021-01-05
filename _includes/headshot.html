@@ -15,7 +15,7 @@ img{
 	{% assign sm = site.data.social_media %}
 	{% for s in sm %}
 	<li><a href="{{ s.href }}{{ s.id }}" title="{{ s.title }}">
-			<i class="fa {{ s.fa-icon }}" style="color:{{ s.color }};"></i>  {{ s.display }}
+			<i class="{{ s.fa-icon }}" style="color:{{ s.color }};"></i>  {{ s.display }}
 		</a></li>
 	{% endfor %}
 	</ul>
