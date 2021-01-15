@@ -4,26 +4,28 @@ title: about
 ---
 
 <style>
-#about_main{
-	float:left;
-	width:100%;
-}
-
 #headshot{
 	float:left;
-	width: 45vh;
+	width: 35%;
+	min-width: 250px;
 }
 
 #blurb{
 	float:left;
-	width:65vh;
+	width:65%;
 	text-align:center;
-	font-size: 20px;
+	font-size: 1.2em;
+}
+
+section::after{
+	content: "";
+	display: table;
+	clear: both;
 }
 
 </style>
 
-<div class="main" id="about_main">
+<section>
 	<div id="headshot">
 		{% include headshot.html %}
 	</div>
@@ -37,7 +39,7 @@ title: about
 	steroid hormone ecdysone can induce temporal- and tissue-specific gene expression responses. 
 	<p>You can read more about my research <u><a href="/pages/research" class=extLink>here</a></u>.</p>
 	</div>
-</div><!-- /.blurb -->
+</section>
 
 
 
