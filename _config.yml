@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   the mighty Drosophila dragonagaster. Writer of grandiloquent pronouncments. 
   Carpe Diem. Carpe Annum. Carpe Everything.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "cmuyehara.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://cmuyehara.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmuyehara
 github_username:  cmuyehara
 markdown: kramdown
