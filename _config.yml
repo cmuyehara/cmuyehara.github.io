@@ -25,9 +25,9 @@ avatar: /assets/images/headshot.jpg
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Christopher M. Uyehara <br>
   Graduate student | Biomedical scientist |
-  Lover of obscure facts | Champion of the mighty Drosophila dragonagaster |
+  Lover of obscure facts | Champion of the mighty <i>Drosophila dragonagaster</i> |
   Writer of grandiloquent pronouncements <br><br>
-  Carpe Diem. Carpe Annum. Carpe Everything.
+  <i>Carpe Diem. Carpe Annum. Carpe Everything.</i>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cmuyehara.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmuyehara
@@ -48,6 +48,10 @@ permalink: /:title
 google_analytics: G-ZZPB07QBPR
 
 skin: daylight
+
+# theme settings:
+cover_bg_color: rgb(2,21,69)
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
