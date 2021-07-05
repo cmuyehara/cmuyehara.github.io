@@ -23,9 +23,10 @@ author: Christopher M. Uyehara
 email: cuyehara@email.unc.edu
 avatar: /assets/images/headshot.jpg
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Christopher M. Uyehara. Graduate student. 
-  Biomedical scientist. Lover of obscure facts. Champion of 
-  the mighty Drosophila dragonagaster. Writer of grandiloquent pronouncments. 
+  Personal website of Christopher M. Uyehara <br>
+  Graduate student | Biomedical scientist |
+  Lover of obscure facts | Champion of the mighty Drosophila dragonagaster |
+  Writer of grandiloquent pronouncements <br><br>
   Carpe Diem. Carpe Annum. Carpe Everything.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cmuyehara.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,7 +36,8 @@ markdown: kramdown
 #
 # Build settings
 #theme: minima
-theme: jekyll-theme-hamilton
+#theme: jekyll-theme-hamilton
+theme: not-pure-poole
 plugins:
   - jekyll-feed
   - jekyll-sitemap

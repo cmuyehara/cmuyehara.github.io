@@ -1,0 +1,15 @@
+- title: 'Email'
+  url: 'mailto:cuyehara@email.unc.edu'
+  icon: 'fas fa-envelope'
+
+- title: 'ORCID'
+  url: 'https://orcid.org/0000-0002-3210-9428'
+  icon: 'fab fa-orcid'
+
+- title: 'Scholar Google'
+  url: 'https://scholar.google.com/citations?user=rq99LRAAAAAJ&hl'
+  icon: 'fab fa-google'
+ 
+- title: 'Twitter'
+  url: 'https://twitter.com/cmuyehara'
+  icon: 'fab fa-twitter'
