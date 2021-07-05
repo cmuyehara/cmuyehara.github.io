@@ -3,9 +3,11 @@ layout: default
 title: About
 ---
 
-## About Me:  
+# About 
 
-Hi there! I'm a graduate student in the [McKay Lab](https://mckaylab.web.unc.edu) at the 
+Hi there! 
+
+I'm a graduate student in the [McKay Lab](https://mckaylab.web.unc.edu) at the 
 University of North Carolina at Chapel Hill. I study the epigenetics of gene regulation during 
 *Drosophila* development using a mixture of wet-lab and computational techniques.
 My project has focused on understanding how the 
