@@ -1,6 +1,6 @@
 - title: 'Email'
-  display: 'cuyehara@email.unc.edu'
-  id: 'cuyehara@email.unc.edu'
+  display: 'cmu4001@med.cornell.edu'
+  id: 'cmu4001@med.cornell.edu'
   href: 'mailto:'
   fa-icon: 'fas fa-envelope'
   color: 'black'
@@ -14,7 +14,7 @@
 
 - title: 'Google'
   display: 'Scholar Google'
-  id: 'citations?user=rq99LRAAAAAJ&hl'
+  id: 'citations?user=4yaE54kAAAAJ&hl'
   href: 'https://scholar.google.com/'
   fa-icon: 'fab fa-google'
   color: '#4285F4'
