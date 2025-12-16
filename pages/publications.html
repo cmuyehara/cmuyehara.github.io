@@ -32,8 +32,8 @@ li {
 {% assign pubs = site.data.publications %}
 {% for p in pubs %}
 <li>{{ p.authors }} ({{ p.year }}).
-	<u><a href="{{ p.link }}" class='extLink'>{{ p.title }} </a></u>
-	{{ p.jrnl }}<br>{{ p.note }}
+	<u><a href="{{ p.doi }}" class='extLink'>{{ p.title }}</a></u>. 
+	{{ p.journal }}.<br>{{ p.note }}
 </li>
 {% endfor %}
 

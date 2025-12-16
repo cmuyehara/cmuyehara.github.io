@@ -1,34 +1,86 @@
-- authors: "Price, K.L., Presler, M., <b>Uyehara, C.M.</b>, and Shakes, D.C."
-  year: "2021"
-  title: "The intrinsically disordered protein SPE-18 promotes localized assembly of the major sperm protein in C. elegans spermatocytes."
-  jrnl: "Development"
-  link: "https://journals.biologists.com/dev/article-abstract/148/5/dev195875/237502/The-intrinsically-disordered-protein-SPE-18?redirectedFrom=fulltext"
- 
+- authors: Chatterjee K.*, <b>Uyehara, C.M.*</b>, Kasliwal, K., Madhuranath, S., Scourzic, L.,
+    Polyzos, A., Apostolou, E., Stadtfeld, M.
+  title: Coordinated repression of totipotency-associated gene loci by histone methyltransferase EHMT2 via LINE1 regulatory elements
+  year: '2025'
+  journal: Embo Reports
+  doi: https://doi.org/10.1038/s44319-025-00657-5
+  note: '*Equal Contributions'
 
-- authors: "<b>Uyehara, C.M.</b>, and McKay, D.J."
-  year: "2019"
-  title: "Direct and widespread role for the nuclear receptor EcR in mediating the response to ecdysone in Drosophila."
-  jrnl: "Proc Natl Acad Sci U S A 116, 9893–9902."
-  link: "https://www.pnas.org/content/116/20/9893"
+- authors: Ee LS., Medina-Cano M., Goetzler E.M., <b>Uyehara C.M.</b>, Schwarz
+    C., Salataj E., Madhuranath S., Evans T., Hadjantonakis A.K., Apostolou E., Polyzos A., Vierbuchen T.,
+    Stadtfeld, M.
+  title: Enhancer remodeling by OTX2 directs specification and patterning of mammalian definitive endoderm
+  year: '2025'
+  journal: Developmental Cell
+  doi: https://doi.org/10.1016/j.devcel.2025.07.020
 
-- authors: "Leatham-Jensen, M., <b>Uyehara, C.M.</b>, Strahl, B.D., Matera, A.G., Duronio, R.J., and McKay, D.J."
-  year: "2019"
-  title: "Lysine 27 of replication-independent histone H3.3 is required for Polycomb target gene silencing but not for gene activation."
-  jrnl: "PLoS Genet 15, e1007932."
-  link: "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007932"
+- authors: Murphy, D., Salataj, E., Di Giammartino, D.C., Rodriguez-Hernaez, J., Kloetgen,
+    A., Garg, V., Char, E., <b>Uyehara, C.M.</b>, Ee, L., Lee, U., Stadtfeld, M.,
+    Hadjantonakis, A., Tsirigos, A., Polyzos, A., Apostolou, E.
+  title: 3D Enhancer-promoter networks provide predictive features for gene expression
+    and coregulation in early embryonic lineages
+  year: '2024'
+  journal: Nature structural & molecular biology
+  doi: https://doi.org/10.1038/s41594-023-01130-4
 
-- authors: "<b>Uyehara, C.M.</b>*, Nystrom, S.L.*, Niederhuber, M.J., Leatham-Jensen, M., Ma, Y., Buttitta, L.A., and McKay, D.J."
-  year: "2017"
-  title: "Hormone-dependent control of developmental timing through regulation of chromatin accessibility."
-  jrnl: "Genes Dev."
-  link: "http://genesdev.cshlp.org/content/31/9/862.full"
-  note: "*equal contributions"
+- authors: <b>Uyehara, C.M.</b>, Apostolou, E.
+  title: '3D enhancer-promoter interactions and multi-connected hubs: Organizational
+    principles and functional roles'
+  year: '2023'
+  journal: Cell reports
+  doi: https://doi.org/10.1016/j.celrep.2023.112068
 
+- authors: Buchert, E.M., Fogarty, E.A., <b>Uyehara, C.</b>, McKay, D.J., Buttitta,
+    L.A.
+  title: A tissue dissociation method optimized for ATAC-seq and CUT&RUN in Drosophila
+    pupal tissues
+  year: '2023'
+  journal: Fly
+  doi: https://doi.org/10.1080/19336934.2023.2209481
 
+- authors: <b>Uyehara, C.M.</b>, Leatham-Jensen, M., McKay, D.J.
+  title: Opportunistic binding of EcR to open chromatin drives tissue-specific developmental
+    responses
+  year: '2022'
+  journal: PNAS
+  doi: https://doi.org/10.1073/pnas.2208935119
 
+- authors: Price, K.L., Presler, M., <b>Uyehara, C.M.</b>, Shakes, D.C.
+  title: The intrinsically disordered protein SPE-18 promotes localized assembly of
+    MSP in Caenorhabditis elegans spermatocytes.
+  year: '2021'
+  journal: Development
+  doi: https://doi.org/10.1242/dev.195875
 
+- authors: Morrison, K.N., <b>Uyehara, C.M.</b>, Ragle, J.M., Ward, J.D., Shakes,
+    D.C.
+  title: MFP1/MSD-1 and MFP2/NSPH-2 co-localize with MSP during C. elegans spermatogenesis
+  year: '2021'
+  journal: microPublication biology
+  doi: https://doi.org/10.17912/micropub.biology.000427
 
+- authors: <b>Uyehara, C.M.</b>, McKay, D.J.
+  title: Direct and widespread role for the nuclear receptor EcR in mediating the
+    response to ecdysone in Drosophila
+  year: '2019'
+  journal: PNAS
+  doi: https://doi.org/10.1073/pnas.1900343116
 
+- authors: Leatham-Jensen, M., <b>Uyehara, C.M.</b>, Strahl, B.D., Matera, A.G., Duronio,
+    R.J., McKay, D.J.
+  title: Lysine 27 of replication-independent histone H3.3 is required for Polycomb
+    target gene silencing but not for gene activation
+  year: '2019'
+  journal: PLoS genetics
+  doi: https://doi.org/10.1371/journal.pgen.1007932
 
+- authors: <b>Uyehara, C.M.*</b>, Nystrom, S.L.*, Niederhuber, M.J., Leatham-Jensen,
+    M., Ma, Y., Buttitta, L.A., McKay, D.J.
+  title: Hormone-dependent control of developmental timing through regulation of chromatin
+    accessibility
+  year: '2017'
+  journal: Genes & Development
+  doi: https://doi.org/10.1101/gad.298182.117
+  note: '*Equal Contributions'
 
 
