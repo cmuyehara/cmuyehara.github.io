@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Chris Uyehara
-email: cuyehara@email.unc.edu
+email: cmu4001@med.cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Christopher M. Uyehara. Graduate student. 
+  Personal website of Christopher M. Uyehara. Postdoc. 
   Biomedical scientist. Lover of obscure facts. Champion of 
   the mighty Drosophila dragonagaster. Writer of grandiloquent pronouncments. 
   Carpe Diem. Carpe Annum. Carpe Everything.
@@ -29,6 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cmuyehara.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmuyehara
 github_username:  cmuyehara
+bluesky_username: cmuyehara
 markdown: kramdown
 #
 # Build settings
