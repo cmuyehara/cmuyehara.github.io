@@ -26,5 +26,10 @@
   fa-icon: 'fab fa-twitter'
   color: '#1DA1F2'
  
-
+- title: 'Bluesky'
+  display: 'cmuyehara'
+  id: '/profile/cmuyehara.bsky.social'
+  href: 'https://bsky.app/'
+  fa-icon: 'fab fa-bluesky'
+  color: '#0d73ff'
 
