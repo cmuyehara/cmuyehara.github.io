@@ -1,9 +1,128 @@
 ---
 layout: default
-title: about
+title: About
 ---
 
 <style>
+/*
+#headshot{
+	float:left;
+	width: 35%;
+	min-width: 250px;
+	font-size: 1.0em;
+}
+
+
+section::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+*/
+
+.profile {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+}
+#headshot{
+	flex: 0 0 35%;
+	min-width: 250px;
+}
+
+#blurb{
+	float:left;
+	flex: 1;
+	text-align:center;
+	font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+	.profile {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#headshot, #blurb {
+		flex: 1 1 100%;
+		text-align: center;
+		min_width: auto;
+	}
+}
+
+</style>
+
+<section class="profile">
+	<div id="headshot">
+		{% include headshot.html %}
+	</div>
+
+	<div id="blurb">
+		<p> 
+		Hi there!<br>I'm a postdoctoral research associate in the <u><a href='https://apostoloulab.com' class=extLink>Apostolou Lab</a></u> at 
+		the Weill Cornell Medicine. I study the fundamental principles of gene regulation using a variety of wet-lab and computational techniques.
+		My project has focused on understanding how epigenetic regulators modulate cell fate decisions during early mammalian development.
+		<p>You can read more about my research <u><a href="/pages/research" class=extLink>here</a></u>.</p>
+	</div>
+</section>
+
+<!--
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width, initial-scale=1">
+		<title>about </title>
+-->
+		<!-- link to main stylesheet -->
+<!--
+		<link rel="stylesheet" type = "text/css" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<body>
+		<header class="site-header" id="border">
+		<h1> Christopher M. Uyehara </h1>
+		</header>
+		<hr>
+		<nav>
+	<ul>
+		
+			<li><a href="/"  class="current" style="font-weight:bold" >
+					About
+			</a></li>
+		
+			<li><a href="/pages/research" >
+					Research
+			</a></li>
+		
+			<li><a href="/pages/publications" >
+					Publications
+			</a></li>
+		
+			<li><a href="/pages/cv" >
+					CV
+			</a></li>
+		
+			<li><a href="/pages/world_cup_2022" >
+					World Cup 2022
+			</a></li>
+		
+	</ul>
+</nav>
+-->
+<!-- Old navigation section
+	<li><a href="/"style="color:red;">About</a></li>
+	<li><a href="/research.html">Research</a></li>
+	<li><a href="/publications.html">Publications</a></li>
+	<li><a href="/cv">CV</a></li>
+-->
+	<!--	<li><a href="/blog">Blog</a></li> -->
+
+<!--
+		<hr>
+		<main class="content">
+			<article>
+			<style>
 #headshot{
 	float:left;
 	width: 35%;
@@ -27,11 +146,62 @@ section::after{
 
 <section>
 	<div id="headshot">
-		{% include headshot.html %}
+		<style>
+img{
+	width:70%;
+	max-width:250px;
+}
+</style>
+
+<div class="headshot">
+	<img src="/assets/images/headshot_crop.png" width=70% height=70% >
+</div>
+
+
+<div class="social">
+	<ul >
+	
+	
+	<li><a href="mailto:cmu4001@med.cornell.edu" title="Email">
+			<i class="fas fa-envelope" style="color:black;"></i>  cmu4001@med.cornell.edu
+		</a></li>
+	
+	<li><a href="https://orcid.org/0000-0002-3210-9428" title="ORCID">
+			<i class="fab fa-orcid" style="color:#A6CE39;"></i>  0000-0002-3210-9428
+		</a></li>
+	
+	<li><a href="https://scholar.google.com/citations?user=4yaE54kAAAAJ&hl" title="Google">
+			<i class="fab fa-google" style="color:#4285F4;"></i>  Scholar Google
+		</a></li>
+	
+	<li><a href="https://twitter.com/cmuyehara" title="Twitter">
+			<i class="fab fa-twitter" style="color:#1DA1F2;"></i>  @cmuyehara
+		</a></li>
+	
+	<li><a href="https://bsky.app//profile/cmuyehara.bsky.social" title="Bluesky">
+			<i class="fab fa-bluesky" style="color:#0d73ff;"></i>  cmuyehara
+		</a></li>
+	
+	</ul>
+</div>
+
+
+<!--
+
+	<img src="/assets/images/headshot.jpg" width="300" height="300">
+<div class="contact">
+	<a href="mailto:cuyehara@email.unc.edu">email</a>
+	<a href="https://twitter.com/cmuyehara">Twitter</a>
+	<a href="https://twitter.com/cmuyehara" title="Twitter">
+		<i class="fa fa-twitter"></i>
+	</a>
+</div>
+-->
+
+<!--
 	</div>
 	
 	<div id="blurb">
-		<!--<h2>About Me</h2> -->
 	<p> 
 	Hi there!<br>I'm a postdoctoral research associate in the <u><a href='https://apostoloulab.com' class=extLink>Apostolou Lab</a></u> at 
 	the Weill Cornell Medicine. I study the fundamental principles of gene regulation using a variety of wet-lab and computational techniques.
@@ -40,8 +210,7 @@ section::after{
 	</div>
 </section>
 
-
-
+-->
 <!--
 	display: flex;
 	justify-content: center;
@@ -60,3 +229,19 @@ aside {
 </style>
 -->
 
+<!--
+			</article>	
+		</main>
+-->
+<!--
+		</div> <!-- /.container -->
+<!--
+		<footer>
+			This website was generated with <u><a href="https://jekyllrb.com">Jekyll</a></u>: 
+			<em>"If I am the chief of sinners, I am the chief of sufferers
+			also." </em>(Not actually their motto, but it should be...)
+		</footer>
+		</div>
+	</body>
+</html>
+-->
