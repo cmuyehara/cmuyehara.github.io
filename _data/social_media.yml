@@ -28,7 +28,7 @@
  
 - title: 'Bluesky'
   display: 'cmuyehara'
-  id: '/profile/cmuyehara.bsky.social'
+  id: 'profile/cmuyehara.bsky.social'
   href: 'https://bsky.app/'
   fa-icon: 'fab fa-bluesky'
   color: '#0d73ff'
