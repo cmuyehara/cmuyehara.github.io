@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width, initial-scale=1">
+		<title>{{ page.title }} </title>
+		<!-- link to main stylesheet -->
+		<!-- <link rel="stylesheet" type = "text/css" href="/assets/css/styles.css">-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type = "text/css" href="/assets/css/cv.css">
+	<body>
+		<div class="page">
+		<header class="site-header" id="border">
+		<h1> Christopher M. Uyehara </h1>
+		</header>
+		<nav class="site-nav">
+			<hr>
+			{% include navigation.html %}
+			<hr>
+		</nav>
+		<main class="content">
+			<article>
+			{{ content }}
+			</article>	
+		</main>
+		</div>
+		<footer class="site-footer">
+			This website was generated with <u><a href="https://jekyllrb.com">Jekyll</a></u>: 
+			<em>"If I am the chief of sinners, I am the chief of sufferers
+			also." </em>(Not actually their motto, but it should be...)
+		</footer>
+	</body>
+</html>
+
+
