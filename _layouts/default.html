@@ -11,22 +11,26 @@
 		<link rel="stylesheet" type = "text/css" href="/assets/css/styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
-		<div class="container" id="border">
+		<div class="page">
+		<header class="site-header" id="border">
 		<h1> Christopher M. Uyehara </h1>
+		</header>
+		<nav class="site-nav">
 		<hr>
 		{% include navigation.html %}
 		<hr>
-		<div class="container" id="main"> 
-
-		{{ content }}
-
-		</div> <!-- /.container -->
-		<footer>
-			This website was generated with <u><a href="https://jekyllrb.com">Jekyll</a></u>: 
-			<em>"If I am the chief of sinners, I am the chief of sufferers also." </em><br>
-			(Not actually their motto, but it should be...)
-		</footer>
+		</nav>
+		<main class="content">
+			<article>
+			{{ content }}
+			</article>	
+		</main>
 		</div>
+		<footer class="site-footer">
+			This website was generated with <u><a href="https://jekyllrb.com">Jekyll</a></u>: 
+			<em>"If I am the chief of sinners, I am the chief of sufferers
+			also." </em>(Not actually their motto, but it should be...)
+		</footer>
 	</body>
 </html>
 
